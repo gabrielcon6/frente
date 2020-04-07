@@ -1,5 +1,10 @@
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faFacebookF } from '@fortawesome/free-brands-svg-icons' 
+import { faAt } from '@fortawesome/free-solid-svg-icons'
 
+library.add(faLinkedinIn, faFacebookF); 
 
 const Footer = () => {
     return (
@@ -8,12 +13,12 @@ const Footer = () => {
                 <div class="address">
                     <p>phone: 0434 774 792</p>
                     <p>address: Rua Sem Fim, n 24</p>
-                    <p>address: dev@frente.com.au</p>
+                    <p>email: dev@frente.com.au</p>
                 </div>
                 <div class="icons-contact">
-                    <p>LinkedIn Link</p>
-                    <p>Facebook Link?</p>
-                    <p>Email Link?</p>
+                    <div><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></div>
+                    <div><FontAwesomeIcon icon={['fab', 'facebook-f']} /></div>
+                    <div><FontAwesomeIcon icon={faAt} /></div>
                 </div>
             </div>
         </section>    )
