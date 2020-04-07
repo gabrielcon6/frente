@@ -20,6 +20,9 @@ const Footer = () => {
                     <div><FontAwesomeIcon icon={['fab', 'facebook-f']} /></div>
                     <div><FontAwesomeIcon icon={faAt} /></div>
                 </div>
+                <div>
+                    <p>© Frente Software Development | 2020</p>
+                </div>
             </div>
         </section>    )
 }
