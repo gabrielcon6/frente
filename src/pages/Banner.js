@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <section id="banner">
             <div style={{height: "100vh"}}>
-                We can <spam class="coloured-title">build</spam> your app.
+                we can <spam class="coloured-title">build</spam> your app.
             </div>
         </section>
     )
