@@ -3,10 +3,13 @@ import "../components/NavBar.css";
 import logo from "../assets/smalLogo.png";
 
 const NavBar = () => {
+  const reloadPage = () => {
+    window.location.reload();
+  }
   return (
-    <header className="navBar">
+    <header className="navBar" id="navBar">
       <div className="navLinks">
-        <img className="Logo" alt="" src={logo} />{" "}
+        <img className="Logo" alt="" src={logo} onClick={reloadPage}/>{" "}
         <a className="links" href="#about">
           <span className="spanLeft">&#60; </span>about
           <span className="spanRight"> &#62;</span>
