@@ -14,7 +14,6 @@ const Banner = () => {
 
           <div className="bigBanner">
             {" "}
-            <h1 style={{ margin: "0" }}>We can</h1>
             <h1 style={{ margin: "0" }}>
               we are here to build <br />
               <span style={{ margin: "0", color: "#62b6aa" }}> web </span> &
