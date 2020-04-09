@@ -1,0 +1,38 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  margin: 3rem;
+}
+
+.Logo {
+  width: 10rem;
+}
+.navLinks {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.navLinks .links {
+  text-decoration: none;
+  color: #3f3d55;
+  font-size: 1.25rem;
+}
+.links:hover {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 800px) {
+  .Logo {
+    width: 6rem;
+  }
+  .navLinks .links {
+    text-decoration: none;
+    color: #3f3d55;
+    font-size: 1rem;
+  }
+}
