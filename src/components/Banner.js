@@ -16,8 +16,13 @@ const Banner = () => {
             {" "}
             <h1 style={{ margin: "0" }}>We can</h1>
             <h1 style={{ margin: "0" }}>
-              <span style={{ margin: "0", color: "#62b6aa" }}> build </span>{" "}
-              your app{" "}
+              we are here to build <br />
+              <span style={{ margin: "0", color: "#62b6aa" }}> web </span> &
+              <span style={{ margin: "0", color: "#62b6aa" }}>
+                {" "}
+                mobile apps{" "}
+              </span>
+              for you.{" "}
             </h1>
           </div>
         </div>

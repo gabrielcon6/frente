@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./pages/Navbar";
+import NavBar from "./components/NavBar";
 import Dashboard from "./pages/Dashboard";
 
 import "./App.css";

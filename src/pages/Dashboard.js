@@ -1,10 +1,11 @@
 import React from "react";
-import Banner from "./Banner";
-import Projects from "./Projects";
-import About from "./About";
-import Footer from "./Footer";
+import Banner from "../components/Banner";
+import Projects from "../components/Projects";
+import About from "../components/About";
+import Footer from "../components/Footer";
 
 import "../components/Dashboard.css";
+
 const Dashboard = () => {
   return (
     <React.Fragment>
