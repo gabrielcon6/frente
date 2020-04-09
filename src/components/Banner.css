@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   align-content: center;
-  height: 100vh;
+  height: 85vh;
 }
 .mainContent {
   display: flex;
@@ -18,9 +18,15 @@
   height: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .imageBanner {
     width: 100%;
+  }
+  .mainBanner {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 85vh;
   }
   .mainContent {
     display: flex;

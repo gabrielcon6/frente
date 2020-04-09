@@ -9,7 +9,6 @@ import "../components/Dashboard.css";
 const Dashboard = () => {
   return (
     <div className="mainContainer">
-      <Navbar />
       <Banner />
       <Projects />
       <About />
