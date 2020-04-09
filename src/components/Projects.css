@@ -1,0 +1,13 @@
+.projectsContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  /* width: 100vw; */
+  /* background-color: #3f3d55; */
+}
+.monitor2 {
+  margin-top: -60px;
+}

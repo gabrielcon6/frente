@@ -1,14 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 .navBar {
   display: flex;
   align-items: center;
   align-content: center;
   width: 100%;
-  margin: 3rem;
+  height: 100%;
+  padding-top: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  /* background-color: white; */
+  /* background-color: rgba(242, 242, 242, 0.796); */
+  /* margin: 3rem; */
+  /* background-color: lightgray; */
 }
 
 .Logo {
-  width: 10rem;
+  width: 12rem;
 }
+
 .navLinks {
   display: flex;
   width: 100%;
@@ -20,15 +29,38 @@
 .navLinks .links {
   text-decoration: none;
   color: #3f3d55;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
-.links:hover {
-  font-size: 1.3rem;
+
+.links:hover .spanLeft {
+  opacity: 1;
+
+  /* text-decoration: underline; */
+}
+.links:hover .spanRight {
+  opacity: 1;
+
+  /* text-decoration: underline; */
+}
+.spanLeft {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: 0.25s;
+  color: #62b6aa;
+}
+.spanRight {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: 0.25s;
+  color: #62b6aa;
 }
 
 @media (max-width: 800px) {
   .Logo {
-    width: 6rem;
+    width: 7rem;
   }
   .navLinks .links {
     text-decoration: none;

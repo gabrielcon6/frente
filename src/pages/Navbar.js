@@ -7,13 +7,16 @@ const Navbar = () => {
       <div className="navLinks">
         <img className="Logo" alt="" src={logo} />{" "}
         <a className="links" href="#about">
-          about
+          <span className="spanLeft">&#60; </span>about
+          <span className="spanRight"> &#62;</span>
         </a>
         <a className="links" href="#projects">
-          projects
+          <span className="spanLeft">&#60; </span>projects
+          <span className="spanRight"> &#62;</span>
         </a>
         <a href="#contact" className="links">
-          contact
+          <span className="spanLeft">&#60; </span>contact
+          <span className="spanRight"> &#62;</span>
         </a>
       </div>
     </header>
