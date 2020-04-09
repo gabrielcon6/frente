@@ -20,7 +20,7 @@ const Banner = () => {
               <span style={{ margin: "0", color: "#62b6aa" }}>
                 {" "}
                 mobile apps{" "}
-              </span>
+              </span><br />
               for you.{" "}
             </h1>
           </div>
